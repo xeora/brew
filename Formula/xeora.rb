@@ -13,7 +13,7 @@ class Xeora < Formula
            "--configuration", "Release",
            "--framework", "netcoreapp#{Formula["dotnet"].version.major_minor}",
            "--output", "out",
-           "/p:Version=7.4.7750",
+           "/p:AssemblyVersion=7.4.7750",
            "src/Xeora.CLI/Xeora.CLI.csproj"
 
     libexec.install Dir["out/*"]
