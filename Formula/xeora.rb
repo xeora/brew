@@ -11,7 +11,7 @@ class Xeora < Formula
   def install
     system "dotnet", "build",
            "--configuration", "Release",
-           "--framework", "net#{Formula["dotnet"].version.major_minor}",
+           "--framework", "net5.0",
            "--output", "out",
            "/p:AssemblyVersion=7.4.8080",
            "src/Xeora.CLI/Xeora.CLI.csproj"
