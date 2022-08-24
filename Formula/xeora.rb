@@ -2,7 +2,7 @@ class Xeora < Formula
   desc "Web Development Framework"
   homepage "https://xeora.org"
   url "https://github.com/xeora/v7-framework/archive/v7.4.8271.tar.gz"
-  sha256 "c5ff28a8126a8459a64f7d246a7bbd97973c4236e00bc1e723dcd41049e7c5c1"
+  sha256 "a9db59e352a518357d77938855bcddc1891e020ac378ceb938df2bc61882b6af"
   license "MIT"
   head "https://github.com/xeora/v7-framework.git"
 
