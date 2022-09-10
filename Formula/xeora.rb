@@ -1,8 +1,8 @@
 class Xeora < Formula
   desc "Web Development Framework"
   homepage "https://xeora.org"
-  url "https://github.com/xeora/v7-framework/archive/v7.4.8274.tar.gz"
-  sha256 "79146f87dcdf8dcc18168de1b0321fd70be4728220b8770041372152a23f66fd"
+  url "https://github.com/xeora/v7-framework/archive/v7.4.8288.tar.gz"
+  sha256 "56b0e995564348b4594b1ac2029307a5710b2c1a2c200fbdaef50b3622bd7d00"
   license "MIT"
   head "https://github.com/xeora/v7-framework.git"
 
@@ -13,7 +13,7 @@ class Xeora < Formula
            "--configuration", "Release",
            "--framework", "net#{Formula["dotnet"].version.major_minor}",
            "--output", "out",
-           "/p:AssemblyVersion=7.4.8274",
+           "/p:AssemblyVersion=7.4.8288",
            "src/Xeora.CLI/Xeora.CLI.csproj"
 
     libexec.install Dir["out/*"]
